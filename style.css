@@ -235,15 +235,16 @@ hr{
     }
     .right-content{
         display: none;
+        margin: 0 15px;
     }
     .text{
         display: inline-block;
-        height: 25px;
+        height: 15px;
         border: 1px solid #424243;
         border-radius: 15px;
         text-align: center;
         margin: 20px 0 10px 70px;
-        padding: 6px 4px 0 4px;
+        padding: 0 4px;
         font-size: 14px;
         font-style: italic;
         background-color: #bed8ec;
@@ -253,7 +254,7 @@ hr{
     }
     .hide-details{
         width: 64px;
-        margin: 20px 0 0 300px;
+        margin: 20px 0 20px 50px;
         font-size: 10px;
         font-weight: 800;
         border: 1px solid #424243;
