@@ -1,10 +1,10 @@
-
+/* 
 @font-face {
     font-family: "Montserrat";
     src: url(https://fonts.google.com/specimen/Montserrat?subset=cyrillic);
-  }
+  } */
   body{
-   font-family: "Montserrat", Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
    color: #424243;
    margin: 0;
   }
@@ -122,22 +122,6 @@ h2{
     align-items: center;
     font-size: 10px;
 }
-.row-points{
-    width: 100px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 10px;
-}
-.points{
-    width: 12px;
-    height: 12px;
-    background-color: white;
-    border-radius: 8px;
-}
-.points.color{
-    background-color: #424243;
-}
 .right-column{
     display: flex;
     flex-direction: column;
@@ -170,6 +154,14 @@ hr{
 .experience ul{
     margin-left: 20px;
 }
+.projects > a{
+    color: red;
+}
+.projects > a:hover{
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color:#bed8ec;
+}
 .info-aducation,
 .experience{
     margin-top: 20px;
@@ -177,15 +169,7 @@ hr{
 .experience span{
     color: red;
 }
-.right-column .points{
-    border: 1px solid #424243;
-}
-.right-column .row-info{
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-}.right-column .contact-info{
+.right-column .contact-info{
     display: flex;
     align-items: center;
     justify-content: space-around;
